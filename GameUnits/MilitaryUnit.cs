@@ -9,4 +9,11 @@ namespace GameUnits
     {
         
     }
+
+    public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
+    {
+        AttackPower = attackPower;
+        XP = 0;
+
+    }
 }
