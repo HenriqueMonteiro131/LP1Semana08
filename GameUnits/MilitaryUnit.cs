@@ -9,8 +9,13 @@ namespace GameUnits
     {
         public int AttackPower { get; }
         public int XP { get; private set; }
+
+        public void Attack( Unit u)  {}
+
+        public override float Cost => AttackPower + XP;
     }
 
+    
     public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
     {
         AttackPower = attackPower;

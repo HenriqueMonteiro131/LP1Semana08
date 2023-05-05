@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUnits", "GameUnits\GameUnits.csproj", "{09EB32AB-170F-467A-94E4-5C9A05D41805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideVsNew", "OverrideVsNew\OverrideVsNew.csproj", "{1BC650E3-CA20-4A16-893A-68EB86894479}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{09EB32AB-170F-467A-94E4-5C9A05D41805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09EB32AB-170F-467A-94E4-5C9A05D41805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09EB32AB-170F-467A-94E4-5C9A05D41805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC650E3-CA20-4A16-893A-68EB86894479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC650E3-CA20-4A16-893A-68EB86894479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC650E3-CA20-4A16-893A-68EB86894479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC650E3-CA20-4A16-893A-68EB86894479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
